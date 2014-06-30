@@ -1,0 +1,23 @@
+# == Schema Information
+#
+# Table name: create_playlists
+#
+#  id         :integer          not null, primary key
+#  playlist_1 :string(255)
+#  playlist_2 :string(255)
+#  playlist_3 :string(255)
+#  created_at :datetime
+#  updated_at :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  playlist_1: MyString
+  playlist_2: MyString
+  playlist_3: MyString
+
+two:
+  playlist_1: MyString
+  playlist_2: MyString
+  playlist_3: MyString
