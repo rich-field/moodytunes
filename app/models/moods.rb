@@ -1,6 +1,6 @@
 # == Schema Information
 #
-# Table name: moods
+# Table name: create_moods
 #
 #  id         :integer          not null, primary key
 #  happy      :string(255)
@@ -24,4 +24,5 @@
 #
 
 class Moods < ActiveRecord::Base
+  belongs_to :user
 end

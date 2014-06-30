@@ -1,6 +1,6 @@
 # == Schema Information
 #
-# Table name: playlists
+# Table name: create_playlists
 #
 #  id         :integer          not null, primary key
 #  playlist_1 :string(255)
@@ -11,4 +11,5 @@
 #
 
 class Playlists < ActiveRecord::Base
+  belongs_to :mood
 end

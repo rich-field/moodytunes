@@ -1,6 +1,6 @@
 # == Schema Information
 #
-# Table name: users
+# Table name: create_users
 #
 #  id         :integer          not null, primary key
 #  username   :string(255)
@@ -14,4 +14,6 @@
 #
 
 class Users < ActiveRecord::Base
+  has_many :moods
+  has_many :playlists, :through => :moods
 end
