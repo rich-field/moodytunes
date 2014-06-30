@@ -1,6 +1,6 @@
 # == Schema Information
 #
-# Table name: create_users
+# Table name: users
 #
 #  id         :integer          not null, primary key
 #  username   :string(255)

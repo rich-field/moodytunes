@@ -1,6 +1,6 @@
 # == Schema Information
 #
-# Table name: create_moods
+# Table name: moods
 #
 #  id         :integer          not null, primary key
 #  happy      :string(255)

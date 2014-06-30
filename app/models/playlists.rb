@@ -1,6 +1,6 @@
 # == Schema Information
 #
-# Table name: create_playlists
+# Table name: playlists
 #
 #  id         :integer          not null, primary key
 #  playlist_1 :string(255)
