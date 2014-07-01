@@ -60,4 +60,11 @@ h3 {
   text-align: center;
   padding: .5em;
   margin: auto;
+ }
+
+.player{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
 }

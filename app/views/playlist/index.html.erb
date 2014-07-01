@@ -1,0 +1,6 @@
+<h1>homepage</h1>
+
+    <h4>Rdio</h4>
+    <a href="/login">Log into Rdio</a>
+    <p><%= @currentUser["firstName"] %></p>
+    <div class="player"><iframe width="1020" height="120" src="<%= @playlists.first["embedUrl"] %>" frameborder="0"></iframe></div>

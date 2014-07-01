@@ -11,4 +11,5 @@
 #
 
 class Playlist < ActiveRecord::Base
+  belongs_to :mood
 end
