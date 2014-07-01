@@ -13,3 +13,15 @@
  *= require_tree .
  *= require_self
  */
+
+body{
+  max-width: 1020px;
+  margin: auto;
+}
+
+.player{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+}
