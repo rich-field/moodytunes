@@ -55,6 +55,6 @@ class PlaylistController < ApplicationController
 
   def logout
     session.clear
-    redirect to('/')
+    redirect_to root_path
   end
 end

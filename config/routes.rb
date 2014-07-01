@@ -9,4 +9,5 @@ Rails.application.routes.draw do
 
   get '/login' => 'playlist#login'
   get '/callback' => 'playlist#callback'
+  get '/logout' => 'playlist#logout'
 end
