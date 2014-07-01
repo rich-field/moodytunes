@@ -1,3 +1,6 @@
 <h1>homepage</h1>
-<h4><%= @playlist.results.first.artist %></h4>
-<iframe width="600" height="315" src="<%= @playlist.results.second.embedUrl %>" frameborder="0"</iframe>
+
+    <h4>Rdio</h4>
+    <a href="/login">Log into Rdio</a>
+    <p><%= @currentUser %></p>
+    <p><%= @playlists %></p>
