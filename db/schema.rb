@@ -32,7 +32,7 @@ ActiveRecord::Schema.define(version: 20140701061312) do
 
   create_table "users", force: true do |t|
     t.string   "username"
-    t.string   "password"
+    t.string   "password_digest"
     t.integer  "user_id"
     t.string   "first_name"
     t.string   "last_name"
