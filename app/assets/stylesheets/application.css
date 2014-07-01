@@ -1,15 +1,63 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+#container {
+  max-width: 960px;
+  margin: auto;
+  background-color: #CCCCCC;
+  background-size: cover;
+  padding: 1em;
+}
+
+#main_links {
+  background-color: #65BFFD;
+  padding: .5em;
+  margin-bottom: .2em;
+  text-align: center;
+}
+
+#smartnav {
+  background-color: #E6101A;
+  text-align: center;
+}
+
+#mood_list {
+  margin-left: 30px;
+}
+
+#mood_list li {
+  color: white;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+  margin: auto;
+  display: inline-block;
+  background-color: red;
+  padding: 2em;
+  margin: 2em;
+  min-width: 85px;
+  max-width: 85px;
+  border-radius: 20%;
+}
+
+#mood_list a:hover {
+  background-color: white;
+  padding: .7em;
+  border-radius: 20%;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h3 {
+  background-color: #E6101A;
+  max-width: 300px;
+  padding: .5em;
+  border-radius: 0 50px 50px 0px;
+}
+
+#smartnav li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  padding: .5em;
+  margin: auto;
+}

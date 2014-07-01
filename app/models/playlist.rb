@@ -10,5 +10,5 @@
 #  updated_at :datetime
 #
 
-class Playlists < ActiveRecord::Base
+class Playlist < ActiveRecord::Base
 end

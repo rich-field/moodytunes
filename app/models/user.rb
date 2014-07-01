@@ -13,20 +13,6 @@
 #  updated_at      :datetime
 #
 
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-one:
-  username: MyString
-  password: MyString
-  user_id: 1
-  first_name: MyString
-  last_name: MyString
-  email: MyString
-
-two:
-  username: MyString
-  password: MyString
-  user_id: 1
-  first_name: MyString
-  last_name: MyString
-  email: MyString
+class User < ActiveRecord::Base
+  has_secure_password
+end

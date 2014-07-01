@@ -23,5 +23,5 @@
 #  updated_at :datetime
 #
 
-class Moods < ActiveRecord::Base
+class Mood < ActiveRecord::Base
 end
