@@ -3,8 +3,7 @@ require 'rdio'
 # :consumer_key => :wckdv2pub6av9q5fgs22br49, :consumer_secret => :e8M57wnN4h
 
 class PlaylistController < ApplicationController
-  def index
-
+  def songs
     # Initialize new Rdio Client
   access_token = session[:at]
   access_token_secret = session[:ats]
@@ -14,6 +13,7 @@ class PlaylistController < ApplicationController
 
     @currentUser = rdio.call('currentUser')['result']
     @playlists = rdio.call('getPlaylists')['result']['owned']
+    end
   end
 
   def login
@@ -56,6 +56,5 @@ class PlaylistController < ApplicationController
   def logout
     session.clear
     redirect to('/')
-    end
   end
 end

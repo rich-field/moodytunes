@@ -5,3 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Mood.destroy_all
+
+Mood.create([{name: "Happy"},{name: "Sad"},{name: "Anger"},{name: "Rage"},{name: "Boredom"},{name: "Drunk"},{name: "Elated"},{name: "Frustrated"},{name: "Hateful"},{name: "High"},{name: "Hysteria"},{name: "Melancholy"},{name: "Party"},{name: "Pensive"},{name: "Relaxed"},{name: "Tired"}])

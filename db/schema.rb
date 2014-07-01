@@ -11,68 +11,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140630053020) do
+ActiveRecord::Schema.define(version: 20140701061312) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "create_moods", force: true do |t|
-    t.string   "happy"
-    t.string   "sad"
-    t.string   "rage"
-    t.string   "anger"
-    t.string   "hysteria"
-    t.string   "boredom"
-    t.string   "pensive"
-    t.string   "melanholy"
-    t.string   "elated"
-    t.string   "tired"
-    t.string   "frustrated"
-    t.string   "party"
-    t.string   "hateful"
-    t.string   "drunk"
-    t.string   "high"
-    t.string   "relaxed"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "create_playlists", force: true do |t|
-    t.string   "playlist_1"
-    t.string   "playlist_2"
-    t.string   "playlist_3"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "create_users", force: true do |t|
-    t.string   "username"
-    t.string   "password"
-    t.integer  "user_id"
-    t.string   "first_name"
-    t.string   "last_name"
-    t.string   "email"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
   create_table "moods", force: true do |t|
-    t.string   "happy"
-    t.string   "sad"
-    t.string   "rage"
-    t.string   "anger"
-    t.string   "hysteria"
-    t.string   "boredom"
-    t.string   "pensive"
-    t.string   "melanholy"
-    t.string   "elated"
-    t.string   "tired"
-    t.string   "frustrated"
-    t.string   "party"
-    t.string   "hateful"
-    t.string   "drunk"
-    t.string   "high"
-    t.string   "relaxed"
+    t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
