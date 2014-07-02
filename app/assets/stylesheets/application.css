@@ -102,5 +102,9 @@ h3 {
   bottom: 0;
   width: 100%;
   margin: 0;
-  height: ;
+}
+
+.moodname{
+  text-align: center;
+  font-size: 24px;
 }

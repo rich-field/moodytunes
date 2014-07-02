@@ -1,2 +1,2 @@
-<%= @mood.name %>
-<div class="player"><iframe width="1020" height="120" src="<%= @playlists.select {|playlist| playlist['name'] == @mood.name }.first["embedUrl"] %>"></iframe></div>
+<div class="moodname"><%= @mood.name %></div>
+<div class="player"><iframe width="960" height="280" src="<%= @playlists.select {|playlist| playlist['name'] == @mood.name }.first["embedUrl"]%>"></iframe></div>
