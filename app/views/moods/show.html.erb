@@ -1,4 +1,2 @@
 <div class="moodname"><%= @mood.name %></div>
-
-
-<object width="500" height="250"><param name="movie" value="<%= @playlists.select {|playlist| playlist['name'] == @mood.name }.first["embedUrl"]%>?autoplay"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="<%= @playlists.select {|playlist| playlist['name'] == @mood.name }.first["embedUrl"]%>?autoplay" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="500" height="250"></embed></object>
+<div class="player"><iframe width="960" height="280" src="<%= @playlists.select {|playlist| playlist['name'] == @mood.name }.first["embedUrl"]%>"></iframe></div>
