@@ -1,4 +1,5 @@
 <h1>MoodyTunes</h1>
+<hr>
 
 <% if @current_user.present? %>
     <!-- <h2>Select your Mood!!</h2> -->
@@ -23,5 +24,6 @@
       </ul>
     </div>
 <% else %>
-    <h2>Please Log in to continue</h2>
+    <h2><%= link_to("Please Sign in to continue..", user_login_path) %></h2>
+    <hr>
 <% end %>

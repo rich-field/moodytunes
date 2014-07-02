@@ -15,7 +15,7 @@ body {
   background-color: black;
   background-size: cover;
   padding: 1em;
-  border: solid #8C9094 5px;
+  border: solid white 5px;
   border-radius: 10px;
   color: white;
 }
@@ -37,9 +37,15 @@ form {
   font-size: 60px;
 }
 
-#container h2 {
+#container h2 a {
   font-family: dosis;
   font-size: 24px;
+  text-decoration: none;
+  color: white;
+}
+
+#container h2 a:hover{
+  color: red;
 }
 
 #main_links {
@@ -118,6 +124,7 @@ form {
 
 h1, h2 {
   text-align: center;
+  overflow: none;
 }
 
 h3 {
@@ -146,5 +153,10 @@ h3 {
   text-align: center;
   font-size: 60px;
   font-family: lobster;
-  padding-top: 1.8em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+
+hr {
+  width: 50%;
 }
