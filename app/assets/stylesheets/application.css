@@ -47,6 +47,11 @@ body {
   border-radius: 100%;
 }
 
+#login_field {
+  text-align: center;
+  padding-top: 2em;
+}
+
 #mood_list {
   margin-left: 6px;
 }
